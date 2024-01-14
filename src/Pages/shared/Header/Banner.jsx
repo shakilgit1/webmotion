@@ -46,15 +46,15 @@ const Banner = () => {
 
 
     return (
-        <div className="">
+        <div className=" ">
            
             <div>
             <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">
-            <img src="web.jpg" alt="" />
+            <img className="w-full" src="web.jpg" alt="" />
         </div>
         <div className="keen-slider__slide number-slide2">
-            <img src="video.jepg.jpg" alt="" />
+            <img className="w-full" src="video.jepg.jpg" alt="" />
         </div>
         
        
